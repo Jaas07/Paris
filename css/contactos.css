@@ -1,0 +1,131 @@
+#contacto {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contacto .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contacto h2 {
+    color: #000;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes-sociales li:last-child {
+    margin-right: 0;
+}
+
+.redes-sociales a {
+    color: #000;
+    font-size: 1.5em;
+}
+
+.redes-sociales a:hover {
+    color: #007bff;
+}
+
+#contacto form {
+    margin-top: 20px;
+}
+
+#contacto form div {
+    margin-bottom: 20px;
+}
+
+#contacto form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contacto form input[type="text"],
+#contacto form input[type="email"],
+#contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contacto form textarea {
+    resize: vertical;
+}
+
+#contacto form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contacto form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+#navbar {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+#navbar li a:hover {
+    background-color: rgb(144, 144, 144);
+    color: #000;
+}
+
+.myicon {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    display: none;
+}
